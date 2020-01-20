@@ -8,6 +8,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+header {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
 ul li {
   display: inline-block;
   list-style: none;
@@ -60,7 +66,7 @@ img {
   position: absolute;
   top: 50px;
   right: 0;
-  width: 100px;
+  width: 200px;
   padding-bottom: 30px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
   display: none;
@@ -80,4 +86,13 @@ img {
 
 .parent-dropdown {
   position: relative;
+}
+
+
+ul li a.scarica {
+  background-color: #D2007E;
+  color: black;
+  padding: 5px;
+  border-radius: 50px;
+
 }

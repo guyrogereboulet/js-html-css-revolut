@@ -1,19 +1,9 @@
 $(document).ready(
   function () {
-   $(".parent-dropdown > a.accounts").hover(
+   $("li.parent-dropdown").hover(
      function () {
-       $(this).next(".dropdown").toggleClass("active");
+       $(this).children(".dropdown").toggleClass("active");
      }
    );
-  }
-
-  function () {
-   $(".parent-dropdown > a.prodotti").hover(
-     function () {
-       $(this).next(".dropdown").toggleClass("active");
-     }
-   );
-  }
-
-
+ }
 );
