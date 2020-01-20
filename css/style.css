@@ -4,10 +4,26 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 ul li {
   display: inline-block;
   list-style: none;
 }
+
+ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
+ul li a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+
 
 nav::after {
   display: table;
@@ -16,11 +32,24 @@ nav::after {
 }
 
 .nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   float: left;
+}
+
+.nav-left ul li {
+  padding-left: 10px;
 }
 
 .nav-right {
   float: right;
+}
+
+
+.nav-right ul li {
+  margin-top: 40px;
+  padding-right: 10px;
 }
 
 img {
