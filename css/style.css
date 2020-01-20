@@ -55,3 +55,29 @@ nav::after {
 img {
   height: 100px;
 }
+
+.dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 100px;
+  padding-bottom: 30px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown.active {
+  display: flex;
+}
+
+.dropdown li {
+ text-align: center;
+ color: grey;
+}
+
+.parent-dropdown {
+  position: relative;
+}
