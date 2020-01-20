@@ -6,4 +6,14 @@ $(document).ready(
      }
    );
   }
+
+  function () {
+   $(".parent-dropdown > a.prodotti").hover(
+     function () {
+       $(this).next(".dropdown").toggleClass("active");
+     }
+   );
+  }
+
+
 );
